@@ -3,12 +3,12 @@
 
 
 var pjax = new Pjax({
-    cacheBust: false,
     selectors: [
         "title",
         "meta",
         ".content"
-    ]
+    ],
+    cacheBust: true
 })
 
 topbar.config({ 
