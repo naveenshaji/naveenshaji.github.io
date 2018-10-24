@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="child">
+    <div class="post-cover-img" style="background-image: url('{{ site.baseurl }}{{ page.cover }}')"></div>
+
+    <div class="container-text post-page-heading">
+        <div class="os">{{ page.type }}</div>
+        <div class="fs">{{ page.title }}</div>
+    </div>
+
+    <div class="post-content container-text">
+        {{ content }}
+    </div>
+
+    {% include get_in_touch.html %}
+    {% include related_posts.html %}
+    
+</div>

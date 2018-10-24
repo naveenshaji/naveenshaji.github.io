@@ -1,0 +1,57 @@
+---
+title: Home | naveen.io
+layout: default
+---
+<div class="child">
+<div class="container-text">
+    <div class="heading fs">
+        <div class="info">
+            <div class="name">Naveen Shaji</div>
+            <div class="email"><a href="mailto:hi@naveen.io">hi@naveen.io</a></div>
+        </div>
+
+        <div class="tagline">
+            User Experience Designer,<br>
+            Frontend Engineer,<br>
+            and Sith Lord.
+        </div>
+    </div>
+</div>
+
+    <div class="projects">
+
+
+        {% for post in site.posts limit:1 %}
+        <a href="{{ post.url }}" class="project-card">
+            <div class="cover" style="background-image: url('{{site.baseurl}}{{ post.cover }}')"></div>
+            <div class="text">
+                    <div class="overflow-box">
+                            <div class="os">{{ post.type }}</div>
+                            <div class="fs">{{ post.title }}</div>
+                            <div class="charter">{{ post.excerpt }}</div>
+                    </div>
+            </div>
+        
+        </a>
+        {% endfor %}
+
+        {% for post in site.posts offset:1 %}
+        <a href="{{ post.url }}" class="project-card by2">
+                <div class="cover" style="background-image: url('{{site.baseurl}}{{ post.cover }}')"></div>
+                <div class="text">
+                        <div class="overflow-box">
+                                <div class="os">{{ post.type }}</div>
+                                <div class="fs">{{ post.title }}</div>
+                                <div class="charter">{{ post.excerpt }}</div>
+                        </div>
+                </div>
+            
+            </a>
+        {% endfor %}
+
+
+
+    </div>
+
+
+</div>

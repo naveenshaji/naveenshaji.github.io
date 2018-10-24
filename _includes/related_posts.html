@@ -1,0 +1,23 @@
+<div class="projects">
+        {% assign posts = site[page.collection] | sample:5 %}
+{% assign relatedCount = 0 %}
+{% for post in posts %}
+  {% if post.url != page.url %}
+  <a href="{{ post.url }}" class="project-card by2">
+        <div class="cover" style="background-image: url('{{ site.baseurl }}{{ post.cover }}')"></div>
+        <div class="text">
+            <div class="overflow-box">
+                <div class="os">{{ post.type }}</div>
+                <div class="fs">{{ post.title }}</div>
+                <div class="charter">{{ post.excerpt }}</div>
+            </div>
+        </div>
+
+    </a>
+    {% assign relatedCount = relatedCount | plus: 1 %}
+    {% if relatedCount >= 2 %}
+      {% break %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+    </div>

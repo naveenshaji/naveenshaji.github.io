@@ -1,0 +1,98 @@
+---
+title: Naveen Shaji
+---
+
+<!doctype html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 150 }}{% else %}Hi I'm Naveen - User Experience Designer and Frontend Developer from IDC, IIT Bombay{% endif %}">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+
+    <meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+<meta name="google" content="nositelinkssearchbox">
+<meta name="subject" content="Naveen Shaji's Design Portfolio">
+<meta name="rating" content="General">
+
+
+
+<link rel="icon" sizes="192x192" href="{{ site.baseurl }}img/favicon.png">
+<link rel="apple-touch-icon" href="{{ site.baseurl }}img/favicon.png">
+
+
+
+<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:image" content="{{ site.baseurl }}{{ page.cover }}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 150 }}{% else %}Hi I'm Naveen - User Experience Designer and Frontend Developer from IDC, IIT Bombay{% endif %}">
+<meta property="og:site_name" content="naveen.io">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="Naveen Shaji">
+
+
+      <meta itemprop="name" content="{{ page.title }}">
+      <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}{% else %}Hi I'm Naveen - User Experience Designer and Frontend Developer from IDC, IIT Bombay{% endif %}">
+      <meta itemprop="image" content="{{ site.baseurl }}img/favicon.png">
+
+
+
+      
+      <meta property="op:markup_version" content="v1.0">
+<link rel="canonical" href="https://example.com/article.html">
+<meta property="fb:article_style" content="myarticlestyle">
+
+
+
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" href="{{ site.baseurl }}css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="navbar container os">
+
+                {% include navbar_inner.html %}
+        </section>
+
+
+        <div class="loader">
+            <section class="content">
+                {% if page.layout == 'post' %}
+                <div class="sticky-nav nav-up">
+                    <div class="container os">
+                            {% include navbar_inner.html %}
+                    </div>
+                </div>
+                {% endif %}
+                {{ content }}
+            </section>
+        </div>
+
+        <section class="footer">
+            <div class="made fs">
+                Designed with <img src="{{ site.baseurl }}img/heart.svg" alt=""> in Mumbai
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+    <script src="{{ site.baseurl }}js/vendor/pjax.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}js/main.js"></script>
+
+</body>
+
+</html>
