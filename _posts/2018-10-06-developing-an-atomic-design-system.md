@@ -37,7 +37,7 @@ $pink: #fc4799;
 
 With this solid framework in place, it was time to define the atom level components. We were using most of these as symbols in Sketch Files, however, we standardised the spacing to another Fibonacci series, and made sure it was kept consistent throughout. 
 
-![photo]({{ site.baseurl }}assets/developing-an-atomic-design-system/atoms.jpg){:.wide}
+![photo]({{ site.baseurl }}assets/developing-an-atomic-design-system/Atoms.jpg){:.wide}
 
 Most of these components would ideally end up being stateless components in React for performance. 
 
@@ -49,13 +49,13 @@ This separation of entities also helped segregate our messy SCSS codebase. Only 
 
 Molecules gave more shape and structure to what we were trying to achieve. Usability plays a bigger role here. Every combination of atoms were discussed and analysed before putting them together as molecues that help users achieve coherent understanding of the function they perform.
 
-![photo]({{ site.baseurl }}assets/developing-an-atomic-design-system/molecules.jpg){:.wide}
+![photo]({{ site.baseurl }}assets/developing-an-atomic-design-system/Molecules.jpg){:.wide}
 
 ### The Organisms
 
 These are higher level components that may manage state in the development cycle. These usually come with their own set of interactions, functions, and microinteractions that serve purpose. 
 
-![photo]({{ site.baseurl }}assets/developing-an-atomic-design-system/organisms.jpg){:.wide}
+![photo]({{ site.baseurl }}assets/developing-an-atomic-design-system/Organisms.jpg){:.wide}
 
 Obviously this is not the exhaustive list of molecules or organisms that we are using. However this should give you an insight into our workflow.
 
