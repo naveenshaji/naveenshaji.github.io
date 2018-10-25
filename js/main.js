@@ -8,7 +8,7 @@ var pjax = new Pjax({
         "meta",
         ".content"
     ],
-    cacheBust: false
+    cacheBust: true
 })
 
 topbar.config({ 
