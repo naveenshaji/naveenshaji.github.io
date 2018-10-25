@@ -12,6 +12,8 @@ We created a mobile application that places an Augmented Reality world right in 
 
 This project was done as a three week design thinking and strategy effort. I worked alongside a researcher and a visual designer to see this project through and to ensure that it was completed on time. I was responsible for areas from the Design Strategy to the User Experience and Motion Prototyping.
 
+![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/j1.jpg){:.wide}
+
 ---
 
 ## Design Process
@@ -117,6 +119,8 @@ Improving team mechanics and collaboration potential in workplaces by
 providing a common building platform in Augmented Reality where teamwork is
 essential and rewarded.
 
+![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/j3.jpg){:.wide}
+
 __System Description__
 
 Problem Description: Teams that spend time building things together are more
@@ -191,6 +195,8 @@ __Combining the elements__
 Each player chooses 1 of the 7 combinations possible with his/her element.
 There could be areas in the office called combinational areas where the different members could come together to combine their elements, the socializing hotspots, like the coffee machine, forcing them to interact with each other while combining their elements.
 
+![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/j2.jpg){:.wide}
+
 The primary elements are thrown at the same spot in the virtual reality, at the same time, by the players who decided to combine their elements, which lead them to combine to give a secondary element which comes into the Players’ inventory, the ones who combined their primary elements.
 Building things
 
@@ -218,6 +224,8 @@ We sketched out multiple iterations of pen and paper wireframes and multiple var
 ![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/c2.jpg){:.wide}
 
 This was refined and digitalized to create interactive prototypes which we could then use for much more detailed user testing and insights.
+
+![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/j4.jpg){:.wide}
 
 #### Low Fidelity Interactive prototype
 
@@ -261,6 +269,7 @@ The interactive prototype was built keeping in mind the results we received from
 
 ![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/image13.png){:.wide}
 ![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/image28.png){:.wide}
+![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/j5.jpg){:.wide}
 
 #### Acknowledgements
 
