@@ -10,7 +10,7 @@ We created a mobile application that places an Augmented Reality world right in 
 
 #### My Role
 
-This project was done as a three week design thinking and strategy effort. I worked alongside a researcher and a visual designer to see this project through and to ensure that it was completed on time. I was responsible for areas from the Design Strategy to the User Experience.
+This project was done as a three week design thinking and strategy effort. I worked alongside a researcher and a visual designer to see this project through and to ensure that it was completed on time. I was responsible for areas from the Design Strategy to the User Experience and Motion Prototyping.
 
 ---
 
@@ -29,7 +29,7 @@ A quick round of brainstorming led us to four very strategic, but interesting, p
 
 A few hours of research later, we began by writing down the needs and challenges faced in realizing each of these four goals. This helped us define more tactical problems to tackle which would ultimately assist in realizing one of our initial goals.
 
-<p><img src="{{site.baseurl}}assets/using-augmented-reality-experiences/image8.jpg" height="800" alt="Image" /></p>
+![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/image8.jpg)
 
 This was followed by convergence through selection, where we chose some of the needs and challenges that we felt could be developed more. The selected problems were moved back to the drawing board where another level of divergent thinking was applied, and we branched out from each of the problems to arrive at a network of problem statements that were inexplicably linked to each other.
 

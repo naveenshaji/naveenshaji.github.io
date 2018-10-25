@@ -372,6 +372,18 @@ a {
     font-size: 21px;
     line-height: 1.5;
     margin-bottom: 64px;
+    blockquote {
+        font-size: 26px;
+        width: calc(100% + 64px);
+        font-style: italic;
+        margin-left: -32px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        padding: 16px 32px;
+        border-left: 4px solid $lightblue;
+        box-sizing: border-box;
+        color: $blue;
+    }
     p {
         margin-bottom: 32px;
         margin-top: 16px;
