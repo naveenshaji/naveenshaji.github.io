@@ -12,8 +12,6 @@ We created a mobile application that places an Augmented Reality world right in 
 
 This project was done as a three week design thinking and strategy effort. I worked alongside a researcher and a visual designer to see this project through and to ensure that it was completed on time. I was responsible for areas from the Design Strategy to the User Experience and Motion Prototyping.
 
-![photo]({{site.baseurl}}assets/using-augmented-reality-experiences/j1.jpg){:.wide}
-
 ---
 
 ## Design Process
