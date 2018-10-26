@@ -594,5 +594,10 @@ a {
             margin: 0;
             width: auto;
         }
+        img.wide {
+            width: calc(100% + 64px);
+            max-width: calc(100% + 64px);
+            margin-left: -32px;
+        }
     }
 }
