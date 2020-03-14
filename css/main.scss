@@ -261,7 +261,7 @@ a {
 
 .heading {
     margin-top: 76px;
-    margin-bottom: 79px;
+    margin-bottom: 51px;
     .info {
         font-size: 16px;
         .email {
@@ -272,6 +272,49 @@ a {
         font-size: 36px;
         margin-top: 37px;
 
+    }
+    .sub-tagline {
+        color: $darkblue;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
+
+.client-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 36px;
+    .item {
+        opacity: 0.5;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: opacity 0.2s ease;
+        &:hover {
+            opacity: 1;
+        }
+        &.one {
+            height: 27px;
+            width: 125px;
+        }
+        &.two {
+            height: 43px;
+            width: 65px;
+        }
+        &.three {
+            height: 106px;
+            width: 106px;
+        }
+        &.four {
+            height: 65px;
+            width: 65px;
+        }
+        &.five {
+            height: 95px;
+            width: 95px;
+        }
     }
 }
 
